@@ -3,5 +3,5 @@ We are designing a WordPress website for U3A Online, our client for this project
 
 ## Team Members
 - 
-- 
+- Aengus Davies
 - Matt Jackson
