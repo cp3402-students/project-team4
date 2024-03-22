@@ -5,17 +5,27 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-#/wp-admin/
-#/wp-content/index.php
-#/wp-content/languages
-#/wp-content/plugins/index.php
-#/wp-content/themes/index.php
-#/wp-includes/
-#/index.php
-#/license.txt
-#/readme.html
-#/wp-*.php
-#/xmlrpc.php
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/akismet
+/wp-content/plugins/all-in-one-seo-pack
+/wp-content/plugins/all-in-one-wp-migration
+/wp-content/plugins/amp
+/wp-content/plugins/google-analytics-for-wordpress
+/wp-content/plugins/jetpack
+/wp-content/plugins/simple-tags
+/wp-content/plugins/w3-total-cache
+/wp-content/plugins/wp-mail-smtp
+/wp-content/plugins/index.php
+/wp-content/plugins/hello.php
+/wp-content/themes/index.php
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
 
 # Configuration
 wp-config.php
@@ -24,10 +34,10 @@ wp-config.php
 /wp-content/themes/twenty*/
 
 # Example plugin
-/wp-content/plugins/hello.php
+
 
 # Uploads
-/wp-content/uploads/
+
 
 # Log files
 *.log
