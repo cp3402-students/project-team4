@@ -204,3 +204,47 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+// Function to fetch posts from a specified category
+function fetch_posts_by_category_func($atts) {
+    // Extract shortcode attributes
+    $atts = shortcode_atts( array(
+        'category' => 'links/general', // Default category slug
+    ), $atts );
+
+    // WP_Query arguments
+    $args = array(
+        'post_type'      => 'post',
+        'posts_per_page' => -1, // Display all posts
+        'category_name'  => $atts['category'], // Specify the category name (subcategory/main category)
+    );
+
+    // The Query
+    $query = new WP_Query( $args );
+
+    // Output buffer
+    ob_start();
+
+    // The Loop
+    if ( $query->have_posts() ) :
+        while ( $query->have_posts() ) :
+            $query->the_post();
+            ?>
+            <h3><?php the_title(); ?></h3>
+            <a href="<?php the_permalink(); ?>"><?php the_permalink(); ?></a>
+            <p><?php the_excerpt(); ?></p>
+            <?php
+        endwhile;
+    else :
+        // If no posts are found
+        echo '<p>No posts found</p>';
+    endif;
+
+    // Restore original Post Data
+    wp_reset_postdata();
+
+    // Return the buffered content
+    return ob_get_clean();
+}
+add_shortcode( 'fetch_posts_by_category', 'fetch_posts_by_category_func' );
+
