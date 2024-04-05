@@ -2,5 +2,11 @@
 themes/twenty*/
 themes/index.php
 
+# WPRig non essential theme files
+themes/wprig/config
+themes/wprig/languages
+themes/wprig/gulp
+themes/wprig/.github
+
 # All themes
 #themes/
