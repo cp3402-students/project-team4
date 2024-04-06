@@ -8,5 +8,9 @@ themes/wprig/languages
 themes/wprig/gulp
 themes/wprig/.github
 
+# _s theme package files
+themes/u3a-online/vendors
+themes/u3a-online/node_modules
+
 # All themes
 #themes/
