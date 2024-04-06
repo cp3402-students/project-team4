@@ -69,6 +69,31 @@
 	}
 }
 
+/* Footer Menu*/
+.secondary-navigation {
+	background-color: $color__theme-primary;
+
+	ul{
+		margin: 0 0 1.5cm 0;
+		list-style-type: none;
+		display:block;
+
+		li{
+			padding: 10px;
+
+			a{
+				text-decoration: none;
+				font-weight: 350;
+				color: $color__footer-links;
+				&:hover{
+					text-decoration: underline;
+
+				}
+			}
+		}
+	}
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -83,6 +108,11 @@
 
 	.main-navigation ul {
 		display: flex;
+	}
+	.secondary-navigation{
+		ul{
+			display: inline-flex;
+		}
 	}
 }
 
@@ -107,3 +137,4 @@
 		flex: 1 0 50%;
 	}
 }
+
