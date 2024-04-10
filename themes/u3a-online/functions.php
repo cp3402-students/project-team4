@@ -101,6 +101,7 @@ function u3a_online_setup() {
 		)
 	);
 }
+
 add_action( 'after_setup_theme', 'u3a_online_setup' );
 
 /**
@@ -113,6 +114,7 @@ add_action( 'after_setup_theme', 'u3a_online_setup' );
 function u3a_online_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'u3a_online_content_width', 640 );
 }
+
 add_action( 'after_setup_theme', 'u3a_online_content_width', 0 );
 
 /**
@@ -133,12 +135,15 @@ function u3a_online_widgets_init() {
 		)
 	);
 }
+
 add_action( 'widgets_init', 'u3a_online_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
 function u3a_online_scripts() {
+	//Enqueue Google fonts for theme: PT Serif and Roboto
+	wp_enqueue_style( 'u3a-online-fonts', "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" );
 	wp_enqueue_style( 'u3a-online-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'u3a-online-style', 'rtl', 'replace' );
 
@@ -148,6 +153,7 @@ function u3a_online_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
+
 add_action( 'wp_enqueue_scripts', 'u3a_online_scripts' );
 
 /**
