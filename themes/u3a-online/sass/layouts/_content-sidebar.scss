@@ -14,6 +14,15 @@
 .site-main {
 	grid-area: main;
 	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+	padding: 10px;
+
+	// Media size modifiers
+	@media screen and (min-width: $query__small) and (max-width: $query__medium) {
+		padding: 0 2em;
+	}
+	@media screen and (min-width: $query__medium) {
+		padding: 0 7em;
+	}
 }
 
 .widget-area {
