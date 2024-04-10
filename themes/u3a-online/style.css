@@ -389,40 +389,175 @@ optgroup,
 textarea {
 	color: #404040;
 	font-family: "PT Serif", Geogia, Cambria, "Times New Roman", Times, serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+@media screen and (min-width: 700px) {
+	body,
+	button,
+	input,
+	select,
+	optgroup,
+	textarea {
+		font-size: 1.15rem;
+	}
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+button h1,
+button h2,
+button h3,
+button h4,
+button h5,
+button h6,
+input h1,
+input h2,
+input h3,
+input h4,
+input h5,
+input h6,
+select h1,
+select h2,
+select h3,
+select h4,
+select h5,
+select h6,
+optgroup h1,
+optgroup h2,
+optgroup h3,
+optgroup h4,
+optgroup h5,
+optgroup h6,
+textarea h1,
+textarea h2,
+textarea h3,
+textarea h4,
+textarea h5,
+textarea h6 {
 	clear: both;
 	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
 }
 
-p {
+body h1,
+button h1,
+input h1,
+select h1,
+optgroup h1,
+textarea h1 {
+	font-size: 3em;
+}
+
+body h2,
+button h2,
+input h2,
+select h2,
+optgroup h2,
+textarea h2 {
+	font-size: 2.6em;
+}
+
+body h3,
+button h3,
+input h3,
+select h3,
+optgroup h3,
+textarea h3 {
+	font-size: 2.2em;
+}
+
+body h4,
+button h4,
+input h4,
+select h4,
+optgroup h4,
+textarea h4 {
+	font-size: 2em;
+}
+
+body h5,
+button h5,
+input h5,
+select h5,
+optgroup h5,
+textarea h5 {
+	font-size: 1.8em;
+}
+
+body h6,
+button h6,
+input h6,
+select h6,
+optgroup h6,
+textarea h6 {
+	font-size: 1.6em;
+}
+
+body p,
+button p,
+input p,
+select p,
+optgroup p,
+textarea p {
 	margin-bottom: 1.5em;
 }
 
-dfn,
-cite,
-em,
-i {
+body dfn,
+body cite,
+body em,
+body i,
+button dfn,
+button cite,
+button em,
+button i,
+input dfn,
+input cite,
+input em,
+input i,
+select dfn,
+select cite,
+select em,
+select i,
+optgroup dfn,
+optgroup cite,
+optgroup em,
+optgroup i,
+textarea dfn,
+textarea cite,
+textarea em,
+textarea i {
 	font-style: italic;
 }
 
-blockquote {
+body blockquote,
+button blockquote,
+input blockquote,
+select blockquote,
+optgroup blockquote,
+textarea blockquote {
 	margin: 0 1.5em;
 }
 
-address {
+body address,
+button address,
+input address,
+select address,
+optgroup address,
+textarea address {
 	margin: 0 0 1.5em;
 }
 
-pre {
+body pre,
+button pre,
+input pre,
+select pre,
+optgroup pre,
+textarea pre {
 	background: #eee;
 	font-family: "Courier 10 Pitch", courier, monospace;
 	line-height: 1.6;
@@ -432,26 +567,71 @@ pre {
 	padding: 1.6em;
 }
 
-code,
-kbd,
-tt,
-var {
+body code,
+body kbd,
+body tt,
+body var,
+button code,
+button kbd,
+button tt,
+button var,
+input code,
+input kbd,
+input tt,
+input var,
+select code,
+select kbd,
+select tt,
+select var,
+optgroup code,
+optgroup kbd,
+optgroup tt,
+optgroup var,
+textarea code,
+textarea kbd,
+textarea tt,
+textarea var {
 	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-abbr,
-acronym {
+body abbr,
+body acronym,
+button abbr,
+button acronym,
+input abbr,
+input acronym,
+select abbr,
+select acronym,
+optgroup abbr,
+optgroup acronym,
+textarea abbr,
+textarea acronym {
 	border-bottom: 1px dotted #666;
 	cursor: help;
 }
 
-mark,
-ins {
+body mark,
+body ins,
+button mark,
+button ins,
+input mark,
+input ins,
+select mark,
+select ins,
+optgroup mark,
+optgroup ins,
+textarea mark,
+textarea ins {
 	background: #fff9c0;
 	text-decoration: none;
 }
 
-big {
+body big,
+button big,
+input big,
+select big,
+optgroup big,
+textarea big {
 	font-size: 125%;
 }
 
