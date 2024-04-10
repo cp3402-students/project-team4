@@ -93,10 +93,9 @@ function u3a_online_setup() {
 	add_theme_support(
 		'custom-logo',
 		array(
-			'height'      => 250,
-			'width'       => 250,
+			'height'      => 90,
+			'width'       => 200,
 			'flex-width'  => true,
-			'flex-height' => true,
 		)
 	);
 }

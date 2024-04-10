@@ -770,7 +770,7 @@ textarea {
 	padding: 1em;
 	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
 	color: white;
-	background-color: #042848;
+	background-color: #22547D;
 }
 
 @media screen and (min-width: 600px) {
@@ -790,10 +790,11 @@ textarea {
 }
 
 .site .site-branding {
-	min-height: 65px;
+	display: flex;
+	min-height: 150px;
 }
 
-.site .site-title {
+.site .site-branding .site-title {
 	margin: 0;
 	padding: 0;
 	font-size: 2.5em;
@@ -801,12 +802,28 @@ textarea {
 	line-height: 1em;
 }
 
-.site .site-title a {
+.site .site-branding .custom-logo-link {
+	margin-right: 1em;
+}
+
+.site .site-branding .custom-logo-link img {
+	display: block;
+	height: 150px;
+	width: auto;
+}
+
+.site .site-branding .site-branding-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.site .site-branding a {
 	color: white;
 	text-decoration: none;
 }
 
-.site .site-title a:hover, .site .site-title a:focus {
+.site .site-branding a:hover, .site .site-branding a:focus {
 	text-decoration: underline;
 }
 
@@ -814,7 +831,7 @@ textarea {
 	margin: 0;
 	font-size: 0.9em;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 350;
 }
 
 .site .header-image {
@@ -827,16 +844,39 @@ textarea {
 	width: 100vw;
 }
 
+.site .main-navigation ul li {
+	font-size: 22px;
+	font-weight: 400;
+	margin: 0 0;
+	padding: 5px 10px;
+}
+
+.site .main-navigation ul li a {
+	color: white;
+}
+
+.site .main-navigation ul li a:hover, .site .main-navigation ul li a:focus {
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 900px) {
 	.site .site-header {
 		display: flex;
 		justify-content: space-between;
 	}
 	.site .site-branding {
-		width: 35%;
+		width: 40%;
 	}
 	.site .main-navigation {
+		display: flex;
+		align-items: center;
 		width: 55%;
+	}
+	.site .main-navigation ul li {
+		font-size: 25px;
+		font-weight: 600;
+		margin: 0 5px;
+		padding: 15px 20px;
 	}
 }
 
