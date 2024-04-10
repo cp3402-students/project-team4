@@ -46,11 +46,10 @@ function u3a_online_setup() {
 		*/
 	add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in two locations.
+	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'u3a-online' ),
-			'menu-2' => esc_html__( 'Secondary', 'u3a-online' ),
 		)
 	);
 

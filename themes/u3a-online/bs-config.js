@@ -13,7 +13,7 @@ module.exports = {
         "ignoreInitial": true
     },
     "server": false,
-    "proxy": '192.168.33.10/wordpress',
+    "proxy": 'http://192.168.33.10/wordpress/',
     "port": 8181,
     "middleware": false,
     "serveStatic": [],

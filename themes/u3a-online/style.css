@@ -224,9 +224,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
 	-webkit-appearance: button;
 }
 
@@ -234,9 +234,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
 	border-style: none;
 	padding: 0;
 }
@@ -245,9 +245,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
 	outline: 1px dotted ButtonText;
 }
 
@@ -291,8 +291,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
 	box-sizing: border-box;
 	padding: 0;
 }
@@ -300,8 +300,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
 	height: auto;
 }
 
@@ -309,7 +309,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
 	-webkit-appearance: textfield;
 	outline-offset: -2px;
 }
@@ -317,7 +317,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
 
@@ -389,7 +389,7 @@ optgroup,
 textarea {
 	color: #404040;
 	font-family: "PT Serif", Geogia, Cambria, "Times New Roman", Times, serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	line-height: 1.5;
 }
 
@@ -453,60 +453,6 @@ textarea h5,
 textarea h6 {
 	clear: both;
 	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
-}
-
-body h1,
-button h1,
-input h1,
-select h1,
-optgroup h1,
-textarea h1 {
-	font-size: 3em;
-}
-
-body h2,
-button h2,
-input h2,
-select h2,
-optgroup h2,
-textarea h2 {
-	font-size: 2.6em;
-}
-
-body h3,
-button h3,
-input h3,
-select h3,
-optgroup h3,
-textarea h3 {
-	font-size: 2.2em;
-}
-
-body h4,
-button h4,
-input h4,
-select h4,
-optgroup h4,
-textarea h4 {
-	font-size: 2em;
-}
-
-body h5,
-button h5,
-input h5,
-select h5,
-optgroup h5,
-textarea h5 {
-	font-size: 1.8em;
-}
-
-body h6,
-button h6,
-input h6,
-select h6,
-optgroup h6,
-textarea h6 {
-	font-size: 1.6em;
 }
 
 body p,
@@ -699,7 +645,7 @@ img {
 }
 
 figure {
-	margin: 1em 0;
+	margin: 0;
 }
 
 table {
@@ -732,9 +678,9 @@ a:hover, a:active {
 /* Forms
 --------------------------------------------- */
 button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
@@ -745,37 +691,37 @@ input[type=submit] {
 }
 
 button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
 	border-color: #ccc #bbb #aaa;
 }
 
 button:active, button:focus,
-input[type=button]:active,
-input[type=button]:focus,
-input[type=reset]:active,
-input[type=reset]:focus,
-input[type=submit]:active,
-input[type=submit]:focus {
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
 	border-color: #aaa #bbb #bbb;
 }
 
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password],
-input[type=search],
-input[type=number],
-input[type=tel],
-input[type=range],
-input[type=date],
-input[type=month],
-input[type=week],
-input[type=time],
-input[type=datetime],
-input[type=datetime-local],
-input[type=color],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
@@ -783,21 +729,21 @@ textarea {
 	padding: 3px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-input[type=search]:focus,
-input[type=number]:focus,
-input[type=tel]:focus,
-input[type=range]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=week]:focus,
-input[type=time]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=color]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
 textarea:focus {
 	color: #111;
 }
@@ -815,45 +761,83 @@ textarea {
 --------------------------------------------------------------*/
 .site {
 	display: grid;
-	grid-template-columns: auto 25%;
-	grid-template-areas: "header header" "main sidebar" "footer footer";
+	grid-template-columns: auto;
+	grid-template-areas: "header" "main" "footer";
 }
 
-.site-header {
-	grid-area: header;
+.site .site-header {
+	position: relative;
+	padding: 1em;
+	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
+	color: white;
+	background-color: #042848;
 }
 
-.site-main {
-	grid-area: main;
-	overflow: hidden;
-	/* Resolves issue with <pre> elements forcing full width. */
-	padding: 10px;
-}
-
-@media screen and (min-width: 600px) and (max-width: 900px) {
-	.site-main {
-		padding: 0 2em;
+@media screen and (min-width: 600px) {
+	.site .site-header {
+		padding: 2em;
 	}
+}
+
+.site .site-main {
+	padding: 1em;
+}
+
+@media screen and (min-width: 600px) {
+	.site .site-main {
+		padding: 1em 2em;
+	}
+}
+
+.site .site-branding {
+	min-height: 65px;
+}
+
+.site .site-title {
+	margin: 0;
+	padding: 0;
+	font-size: 2.5em;
+	font-weight: 900;
+	line-height: 1em;
+}
+
+.site .site-title a {
+	color: white;
+	text-decoration: none;
+}
+
+.site .site-title a:hover, .site .site-title a:focus {
+	text-decoration: underline;
+}
+
+.site .site-description {
+	margin: 0;
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.site .header-image {
+	max-height: 50vh;
+	overflow: hidden;
+}
+
+.site .header-image img {
+	display: block;
+	width: 100vw;
 }
 
 @media screen and (min-width: 900px) {
-	.site-main {
-		padding: 0 7em;
+	.site .site-header {
+		display: flex;
+		justify-content: space-between;
 	}
-}
-
-.widget-area {
-	grid-area: sidebar;
-}
-
-.site-footer {
-	grid-area: footer;
-}
-
-.no-sidebar .site {
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-areas: "header" "main" "footer";
+	.site .site-branding {
+		width: 35%;
+	}
+	.site .main-navigation {
+		width: 55%;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -887,7 +871,8 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
 	display: block;
 	left: auto;
 }
@@ -910,31 +895,6 @@ textarea {
 	text-decoration: none;
 }
 
-/* Footer Menu*/
-.secondary-navigation {
-	background-color: #042848;
-}
-
-.secondary-navigation ul {
-	margin: 0 0 1.5cm 0;
-	list-style-type: none;
-	display: block;
-}
-
-.secondary-navigation ul li {
-	padding: 10px;
-}
-
-.secondary-navigation ul li a {
-	text-decoration: none;
-	font-weight: 350;
-	color: #fff;
-}
-
-.secondary-navigation ul li a:hover {
-	text-decoration: underline;
-}
-
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -948,14 +908,11 @@ textarea {
 	.main-navigation ul {
 		display: flex;
 	}
-	.secondary-navigation ul {
-		display: inline-flex;
-	}
 }
 
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -1047,7 +1004,7 @@ textarea {
 	max-width: 100%;
 }
 
-.wp-caption img[class*=wp-image-] {
+.wp-caption img[class*="wp-image-"] {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -1196,7 +1153,5 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
-
-/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
