@@ -24,9 +24,7 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
     <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'u3a-online' ); ?></a>
-	<?php if ( is_front_page() ) : ?>
-        <figure class="header-image"><?php the_header_image_tag(); ?></figure>
-	<?php endif; ?>
+
     <header id="masthead" class="site-header">
         <div class="site-branding">
             <div class="custom-logo">
@@ -34,21 +32,46 @@
             </div><!-- .custom-logo -->
             <div class="site-branding-text">
 				<?php if ( is_front_page() && is_home() ) : ?>
-                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                    <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                                              rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php else : ?>
-                    <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                    <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                                             rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php endif;
 				$u3a_online_description = get_bloginfo( 'description', 'display' );
 				if ( $u3a_online_description || is_customize_preview() ) :
 					?>
-                    <p class="site-description"><?php echo $u3a_online_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+                    <p class="site-description"><?php echo $u3a_online_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+						?></p>
 				<?php endif; ?>
             </div><!-- .site-branding-text -->
         </div><!-- .site-branding -->
 
+        <div class="custom-buttons">
+		    <?php
+		    // Get the href values from Customizer settings
+		    $href_1 = get_theme_mod('button_1_href', '');
+		    $href_2 = get_theme_mod('button_2_href', '');
+
+		    // Check if both button hrefs are not empty and not "http://0" before rendering the buttons to catch all possible outputs in this theme.
+		    if ((!empty($href_1) && $href_1 !== 'http://0') || (!empty($href_2) && $href_2 !== 'http://0')) :
+			    ?>
+			    <?php if (!empty($href_1) && $href_1 !== 'http://0') : ?>
+                <div class="custom-button-1">
+                    <a href="<?php echo esc_url($href_1); ?>">Become A Member</a>
+                </div>
+		    <?php endif; ?>
+			    <?php if (!empty($href_2) && $href_2 !== 'http://0') : ?>
+                <div class="custom-button-2">
+                    <a href="<?php echo esc_url($href_2); ?>">Log In</a>
+                </div>
+		    <?php endif; ?>
+		    <?php endif; ?>
+        </div><!-- .custom-buttons -->
+
         <nav id="site-navigation" class="main-navigation">
             <button class="menu-toggle" aria-controls="primary-menu"
-                    aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'u3a-online' ); ?></button>
+                    aria-expanded="false"><?php esc_html_e( 'Primary Menu', '-online' ); ?></button>
 			<?php
 			wp_nav_menu(
 				array(
@@ -58,4 +81,10 @@
 			);
 			?>
         </nav><!-- #site-navigation -->
+
+
+
     </header><!-- #masthead -->
+	<?php if ( is_front_page() ) : ?>
+        <figure class="header-image"><?php the_header_image_tag(); ?></figure>
+	<?php endif; ?>
