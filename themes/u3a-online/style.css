@@ -842,8 +842,8 @@ textarea {
 }
 
 .site .header-image img {
-	width: 100vm;
-	height: 60vm;
+	width: 100vw;
+	height: 60vh;
 }
 
 .site .custom-logo-link {
