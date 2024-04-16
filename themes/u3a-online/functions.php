@@ -51,6 +51,7 @@ function u3a_online_setup() {
 		array(
 			'menu-1' => esc_html__( 'Primary', 'u3a-online' ),
 			'menu-2' => esc_html__( 'Secondary', 'u3a-online' ),
+			'social-media' => esc_html__( 'Social Media', 'u3a-online' ),
 		)
 	);
 
