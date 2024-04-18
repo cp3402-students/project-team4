@@ -777,6 +777,10 @@ textarea {
 	padding-bottom: 20px;
 }
 
+.site .site-header .site-title {
+	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
+}
+
 .site .site-header .site-title a {
 	font-size: 2em;
 	line-height: 1em;
@@ -789,6 +793,7 @@ textarea {
 }
 
 .site .site-header .site-description {
+	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
 	line-height: 1em;
 	width: auto;
 	font-size: 1.2em;
@@ -858,6 +863,10 @@ textarea {
 	margin-top: 50px;
 }
 
+.site .main-navigation ul li {
+	padding: 0 5px;
+}
+
 .site .main-navigation ul li a {
 	font-weight: 500;
 	padding: 5px 5px;
@@ -899,6 +908,10 @@ textarea {
 .entry-title a {
 	text-decoration: none;
 	color: black;
+}
+
+.form-container {
+	display: flex;
 }
 
 @media screen and (min-width: 900px) {

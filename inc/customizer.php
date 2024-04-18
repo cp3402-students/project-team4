@@ -58,7 +58,7 @@ function u3a_online_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'esc_url_raw',
 	) );
 	$wp_customize->add_control( 'button_1_href', array(
-		'label'   => __( 'Button #1 Href', 'u3a_online' ),
+		'label'   => __( 'Become A Member Href', 'u3a_online' ),
 		'section' => 'buttons_section',
 		'type'    => 'text',
 	) );
@@ -69,7 +69,7 @@ function u3a_online_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'esc_url_raw',
 	) );
 	$wp_customize->add_control( 'button_2_href', array(
-		'label'   => __( 'Button #2 Href', 'u3a_online' ),
+		'label'   => __( 'Log In #2 Href', 'u3a_online' ),
 		'section' => 'buttons_section',
 		'type'    => 'text',
 	) );
