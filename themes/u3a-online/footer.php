@@ -12,6 +12,24 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+
+	    <nav class="social-menu">
+	        <?php
+	        // Social media menu
+	        wp_nav_menu(
+		        array(
+			        'theme_location' => 'social-media',
+			        'menu_id'        => 'social-media',
+			        'menu_class'     => 'social-media-menu',
+			        'container'      => 'nav',
+			        'container_class'=> 'social-media-menu-container',
+			        'container_id'   => 'social-media-menu-container',
+			        'depth'          => 1,
+		        )
+	        );
+	        ?>
+        </nav>
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'u3a-online' ) ); ?>">
 				<?php

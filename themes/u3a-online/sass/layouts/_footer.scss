@@ -1,0 +1,47 @@
+// Site Footer
+
+.site-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: $color__theme_primary;
+}
+
+.social-menu {
+    ul {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+      a {
+        display: block;
+        color: $color__background-button;
+        padding: 10px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: $color__theme_secondary;
+          text-decoration: underline;
+        }
+      }
+}
+
+.site-info {
+  color: $color__background-button;
+  font-size: 0.8em;
+  margin-top: 10px;
+
+  a {
+    color: $color__background-button;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

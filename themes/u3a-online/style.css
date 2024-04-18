@@ -759,14 +759,12 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
+/* Header
+--------------------------------------------------------------*/
 .site {
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-areas: "header" "main" "footer";
-}
-
-.site .site-main {
-	padding: 10px;
 }
 
 .site .site-header {
@@ -866,6 +864,66 @@ textarea {
 }
 
 .site .main-navigation ul li a:hover, .site .main-navigation ul li a:focus {
+	text-decoration: underline;
+}
+
+/* Content
+--------------------------------------------------------------*/
+.site-main {
+	padding: 100px;
+}
+
+.site-main .entry-title {
+	text-decoration: none;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color: black;
+}
+
+/* Footer
+--------------------------------------------- */
+.site-footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	background-color: #22537c;
+}
+
+.social-menu ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-menu a {
+	display: block;
+	color: #e6e6e6;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.social-menu a:hover {
+	background-color: #596E85;
+	text-decoration: underline;
+}
+
+.site-info {
+	color: #e6e6e6;
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+.site-info a {
+	color: #e6e6e6;
+	text-decoration: none;
+}
+
+.site-info a:hover {
 	text-decoration: underline;
 }
 
