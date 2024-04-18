@@ -16,8 +16,6 @@
     padding-bottom: 20px;
 
     .site-title {
-      font-family: $font__roberto;
-
       a {
         font-size: 2em;
         line-height: 1em;
@@ -34,7 +32,6 @@
     }
 
     .site-description {
-      font-family: $font__roberto;
       line-height: 1em;
       width: auto;
       font-size: 1.2em;
@@ -89,15 +86,13 @@
       }
     }
   }
-
-  .header-image {
-    img {
+  .header-image{
+    img{
       width: 100vw;
       max-height: 40vh;
       overflow: hidden;
     }
   }
-
   .custom-logo-link {
     display: flex;
 
@@ -109,11 +104,8 @@
 
   .main-navigation {
     margin-top: 50px;
-
     ul {
       li {
-        padding: 0 5px;
-
         a {
           font-weight: 500;
           padding: 5px 5px;
