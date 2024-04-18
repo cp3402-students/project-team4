@@ -1,22 +1,10 @@
-// Site Footer
-
 .site-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  text-align: center;
   background-color: $color__theme_primary;
-}
 
-.social-menu {
+  .social-menu {
     ul {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
+      display: block;
       list-style: none;
-    }
 
       a {
         display: block;
@@ -29,19 +17,49 @@
           text-decoration: underline;
         }
       }
-}
+    }
+  }
 
-.site-info {
-  color: $color__background-button;
-  font-size: 0.8em;
-  margin-top: 10px;
+  @media screen and (min-width: $query__medium) {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 
-  a {
-    color: $color__background-button;
-    text-decoration: none;
+    .social-menu {
+      ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
 
-    &:hover {
-      text-decoration: underline;
+      a {
+        display: block;
+        color: $color__background-button;
+        padding: 10px;
+
+        &:hover {
+          background-color: $color__theme_secondary;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .site-info {
+      color: $color__background-button;
+      font-size: 0.8em;
+      margin-top: 10px;
+
+      a {
+        color: $color__background-button;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

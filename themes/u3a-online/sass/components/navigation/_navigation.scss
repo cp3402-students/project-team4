@@ -1,5 +1,5 @@
 .main-navigation {
-	display: flex;
+	display: block;
 	justify-content: center;
 	width: 100%;
 
@@ -81,7 +81,9 @@
 	.menu-toggle {
 		display: none;
 	}
-
+	.main-navigation{
+		display: flex;
+	}
 	.main-navigation ul {
 		display: flex;
 	}

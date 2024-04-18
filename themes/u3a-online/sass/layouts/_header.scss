@@ -89,7 +89,8 @@
   .header-image{
     img{
       width: 100vw;
-      height: 60vh;
+      max-height: 40vh;
+      overflow: hidden;
     }
   }
   .custom-logo-link {

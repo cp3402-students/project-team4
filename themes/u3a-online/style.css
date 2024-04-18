@@ -393,7 +393,7 @@ textarea {
 	line-height: 1.5;
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 782px) and (max-width: 900px) {
 	body,
 	button,
 	input,
@@ -841,7 +841,8 @@ textarea {
 
 .site .header-image img {
 	width: 100vw;
-	height: 60vh;
+	max-height: 40vh;
+	overflow: hidden;
 }
 
 .site .custom-logo-link {
@@ -870,61 +871,101 @@ textarea {
 /* Content
 --------------------------------------------------------------*/
 .site-main {
-	padding: 100px;
+	padding: 10px;
 }
 
-.site-main .entry-title {
-	text-decoration: none;
+.wp-block-button__link {
+	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
+	font-weight: 700;
+	padding: 10px 30px;
+	color: black;
+	background-color: #F42900;
+	border: 3px solid black;
+	border-radius: 15px;
+}
+
+.wp-block-button__link:hover, .wp-block-button__link:focus {
+	color: black;
+	text-decoration: underline;
+}
+
+.entry-title {
+	color: black;
 	display: flex;
 	align-content: center;
 	justify-content: center;
+}
+
+.entry-title a {
+	text-decoration: none;
 	color: black;
+}
+
+@media screen and (min-width: 900px) {
+	.site-main {
+		margin-left: 7em;
+		margin-right: 7em;
+	}
 }
 
 /* Footer
 --------------------------------------------- */
 .site-footer {
-	position: relative;
-	bottom: 0;
-	width: 100%;
-	padding: 10px;
-	text-align: center;
 	background-color: #22537c;
 }
 
-.social-menu ul {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 0;
+.site-footer .social-menu ul {
+	display: block;
 	list-style: none;
 }
 
-.social-menu a {
+.site-footer .social-menu ul a {
 	display: block;
 	color: #e6e6e6;
 	padding: 10px;
 	text-decoration: none;
 }
 
-.social-menu a:hover {
+.site-footer .social-menu ul a:hover {
 	background-color: #596E85;
 	text-decoration: underline;
 }
 
-.site-info {
-	color: #e6e6e6;
-	font-size: 0.8em;
-	margin-top: 10px;
-}
-
-.site-info a {
-	color: #e6e6e6;
-	text-decoration: none;
-}
-
-.site-info a:hover {
-	text-decoration: underline;
+@media screen and (min-width: 900px) {
+	.site-footer {
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+	.site-footer .social-menu ul {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+	}
+	.site-footer .social-menu a {
+		display: block;
+		color: #e6e6e6;
+		padding: 10px;
+	}
+	.site-footer .social-menu a:hover {
+		background-color: #596E85;
+		text-decoration: underline;
+	}
+	.site-footer .site-info {
+		color: #e6e6e6;
+		font-size: 0.8em;
+		margin-top: 10px;
+	}
+	.site-footer .site-info a {
+		color: #e6e6e6;
+		text-decoration: none;
+	}
+	.site-footer .site-info a:hover {
+		text-decoration: underline;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -933,7 +974,7 @@ textarea {
 /* Navigation
 --------------------------------------------- */
 .main-navigation {
-	display: flex;
+	display: block;
 	justify-content: center;
 	width: 100%;
 }
@@ -992,6 +1033,9 @@ textarea {
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
+	}
+	.main-navigation {
+		display: flex;
 	}
 	.main-navigation ul {
 		display: flex;

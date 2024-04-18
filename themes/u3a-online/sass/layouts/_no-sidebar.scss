@@ -1,11 +1,43 @@
 .site-main {
-  padding: 100px;
-  .entry-title{
+  padding: 10px;
+}
+
+.wp-block-button {
+
+
+  &__link {
+    font-family: $font__roberto;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: black;
+    background-color: $color__theme_call_to_action;
+    border: 3px solid black;
+    border-radius: 15px;
+
+    &:hover, &:focus {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+}
+
+.entry-title {
+  color: $color__content_title;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  a {
     text-decoration: none;
-    display: flex;
-    align-content: center;
-    justify-content: center;
     color: $color__content_title;
+  }
+}
+
+
+@media screen and (min-width: $query__medium) {
+  .site-main {
+    margin-left: 7em;
+    margin-right: 7em;
   }
 }
 
