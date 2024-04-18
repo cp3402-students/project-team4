@@ -16,6 +16,7 @@
     padding-bottom: 20px;
 
     .site-title {
+
       a {
         font-size: 2em;
         line-height: 1em;
@@ -39,12 +40,14 @@
     }
 
     .site-branding {
+
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .site-branding-text {
+      font-family: $font__roberto !important;
       margin-left: 30px;
     }
   }
