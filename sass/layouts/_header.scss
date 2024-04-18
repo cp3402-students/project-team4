@@ -16,6 +16,8 @@
     padding-bottom: 20px;
 
     .site-title {
+      font-size: 3em;
+      font-weight: 700 !important;
 
       a {
         font-size: 2em;
@@ -89,13 +91,15 @@
       }
     }
   }
-  .header-image{
-    img{
+
+  .header-image {
+    img {
       width: 100vw;
       max-height: 40vh;
       overflow: hidden;
     }
   }
+
   .custom-logo-link {
     display: flex;
 
@@ -107,6 +111,7 @@
 
   .main-navigation {
     margin-top: 50px;
+
     ul {
       li {
         a {
