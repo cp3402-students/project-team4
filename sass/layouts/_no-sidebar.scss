@@ -1,0 +1,77 @@
+.site-main {
+  padding: 10px;
+}
+
+.wp-block-button {
+
+
+  &__link {
+    font-family: $font__roberto;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: black;
+    background-color: $color__theme_call_to_action;
+    border: 3px solid black;
+    border-radius: 15px;
+
+    &:hover, &:focus {
+      color: black;
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: black !important;
+    }
+
+    &:visited {
+      color: black;
+    }
+  }
+}
+
+.entry-title {
+  color: $color__content_title;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: $color__content_title;
+  }
+}
+
+ul.wp-block-latest-posts__list.links-that-need-to-be-removed {
+  li {
+    a.wp-block-latest-posts__post-title {
+      display: none;
+    }
+  }
+}
+
+//cover alignwide boxes as well
+ul.wp-block-latest-posts__list.alignwide.links-that-need-to-be-removed {
+  li {
+    a.wp-block-latest-posts__post-title {
+      display: none;
+    }
+  }
+}
+
+.wp-block-latest-posts__post-full-content {
+  margin-top: 0 !important;
+  margin-bottom: 3em !important;
+
+  p {
+    margin-bottom: -1em;
+
+  }
+}
+
+@media screen and (min-width: $query__medium) {
+  .site-main {
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+}
+

@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.4.4" created="2024-04-19 08:48" -->
+	<!-- generator="WordPress/6.4.4" created="2024-04-18 14:16" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>U3A Online</title>
 	<link>http://52.63.166.166</link>
 	<description>A Virtual University of the Third Age</description>
-	<pubDate>Fri, 19 Apr 2024 08:48:48 +0000</pubDate>
+	<pubDate>Thu, 18 Apr 2024 14:16:35 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://52.63.166.166</wp:base_site_url>
@@ -1818,10 +1818,10 @@
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>286</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:06:26]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -1863,6 +1863,63 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[http://52.63.166.166/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://52.63.166.166/2024/04/18/287/</link>
+		<pubDate>Thu, 18 Apr 2024 09:07:15 +0000</pubDate>
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<guid isPermaLink="false">http://52.63.166.166/?p=287</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>287</wp:post_id>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[287]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[219]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1908,51 +1965,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
 		<wp:meta_value><![CDATA[U3A_Online_theme]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[cropped-iStock-1341570412.jpg]]></title>
-		<link>http://52.63.166.166/cropped-istock-1341570412-jpg/</link>
-		<pubDate>Fri, 19 Apr 2024 08:46:41 +0000</pubDate>
-		<dc:creator><![CDATA[user]]></dc:creator>
-		<guid isPermaLink="false">http://52.63.166.166/wp-content/uploads/2024/04/cropped-iStock-1341570412.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>347</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-19 08:46:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-04-19 08:46:41]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-19 08:46:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-19 08:46:41]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cropped-istock-1341570412-jpg]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://52.63.166.166/wp-content/uploads/2024/04/cropped-iStock-1341570412.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2024/04/cropped-iStock-1341570412.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom-header]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:2000;s:6:"height";i:972;s:4:"file";s:37:"2024/04/cropped-iStock-1341570412.jpg";s:8:"filesize";i:208162;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:37:"cropped-iStock-1341570412-300x146.jpg";s:5:"width";i:300;s:6:"height";i:146;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11466;}s:5:"large";a:5:{s:4:"file";s:38:"cropped-iStock-1341570412-1024x498.jpg";s:5:"width";i:1024;s:6:"height";i:498;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:71243;}s:9:"thumbnail";a:5:{s:4:"file";s:37:"cropped-iStock-1341570412-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:6152;}s:12:"medium_large";a:5:{s:4:"file";s:37:"cropped-iStock-1341570412-768x373.jpg";s:5:"width";i:768;s:6:"height";i:373;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:45518;}s:9:"1536x1536";a:5:{s:4:"file";s:38:"cropped-iStock-1341570412-1536x746.jpg";s:5:"width";i:1536;s:6:"height";i:746;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:134304;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:17:"attachment_parent";i:247;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_custom_header_last_used_s]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1713516402]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
-		<wp:meta_value><![CDATA[s]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2142,6 +2154,46 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[Aged Care Australia]]></title>
+		<link>http://52.63.166.166/2024/03/24/aged-care-australia/</link>
+		<pubDate>Sun, 24 Mar 2024 00:08:35 +0000</pubDate>
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<guid isPermaLink="false">http://52.63.166.166/?p=12</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p><a href="https://www.health.gov.au/health-topics/aged-care">https://www.health.gov.au/health-topics/aged-care</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Help with health, carers, nursing homes and staying in your own home.</p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2024-03-24 00:08:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-03-24 00:08:35]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-03-24 00:08:35]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-03-24 00:08:35]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aged-care-australia]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="for-seniors"><![CDATA[For Seniors]]></category>
+		<category domain="category" nicename="links"><![CDATA[Links]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Links]]></title>
 		<link>http://52.63.166.166/links/</link>
 		<pubDate>Sun, 24 Mar 2024 04:16:30 +0000</pubDate>
@@ -2152,25 +2204,25 @@
 <h2 class="wp-block-heading alignwide">U3A Related</h2>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"categories":[{"id":11,"count":5,"description":"","link":"http://52.63.166.166/category/links/u3a-related/","name":"U3A Related","slug":"u3a-related","taxonomy":"category","parent":6,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/11"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/6"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=11"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"postsToShow":100,"displayPostContent":true,"displayPostContentRadio":"full_post","excerptLength":100,"order":"asc","orderBy":"title","align":"wide","className":"links-that-need-to-be-removed"} /-->
+<!-- wp:latest-posts {"categories":[{"id":6,"count":5,"description":"","link":"http://52.63.166.166/category/links/u3a-related/","name":"U3A Related","slug":"u3a-related","taxonomy":"category","parent":3,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/6"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/3"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=6"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"postsToShow":100,"displayPostContent":true,"displayPostContentRadio":"full_post","excerptLength":100,"order":"asc","orderBy":"title","align":"wide"} /-->
 
 <!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide">General</h2>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"categories":[{"id":15,"count":8,"description":"","link":"http://52.63.166.166/category/links/general/","name":"General","slug":"general","taxonomy":"category","parent":6,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/15"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/6"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=15"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"postsToShow":100,"displayPostContent":true,"displayPostContentRadio":"full_post","order":"asc","orderBy":"title","align":"wide","className":"links-that-need-to-be-removed"} /-->
+<!-- wp:latest-posts {"categories":[{"id":7,"count":8,"description":"","link":"http://52.63.166.166/category/links/general/","name":"General","slug":"general","taxonomy":"category","parent":3,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/7"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/3"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=7"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"postsToShow":100,"displayPostContent":true,"displayPostContentRadio":"full_post","order":"asc","orderBy":"title","align":"wide"} /-->
 
 <!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide">For Seniors</h2>
 <!-- /wp:heading -->
 
-<!-- wp:latest-posts {"categories":[{"id":14,"count":20,"description":"","link":"http://52.63.166.166/category/links/for-seniors/","name":"For Seniors","slug":"for-seniors","taxonomy":"category","parent":6,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/14"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/6"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=14"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"displayPostContent":true,"displayPostContentRadio":"full_post","order":"asc","orderBy":"title","align":"wide","className":"links-that-need-to-be-removed"} /-->]]></content:encoded>
+<!-- wp:latest-posts {"categories":[{"id":5,"count":20,"description":"","link":"http://52.63.166.166/category/links/for-seniors/","name":"For Seniors","slug":"for-seniors","taxonomy":"category","parent":3,"meta":[],"_links":{"self":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories/5"}],"collection":[{"href":"http://52.63.166.166/wp-json/wp/v2/categories"}],"about":[{"href":"http://52.63.166.166/wp-json/wp/v2/taxonomies/category"}],"up":[{"embeddable":true,"href":"http://52.63.166.166/wp-json/wp/v2/categories/3"}],"wp:post_type":[{"href":"http://52.63.166.166/wp-json/wp/v2/posts?categories=5"}],"curies":[{"name":"wp","href":"https://api.w.org/{rel}","templated":true}]}}],"displayPostContent":true,"displayPostContentRadio":"full_post","order":"asc","orderBy":"title","align":"wide"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>82</wp:post_id>
 		<wp:post_date><![CDATA[2024-03-24 04:16:30]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-03-24 04:16:30]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-19 07:46:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-19 07:46:21]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-03-24 04:16:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-03-24 04:16:30]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[links]]></wp:post_name>
@@ -3332,63 +3384,6 @@ jQuery(document).ready(function($) {
 														</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://52.63.166.166/2024/04/18/287/</link>
-		<pubDate>Thu, 18 Apr 2024 09:07:15 +0000</pubDate>
-		<dc:creator><![CDATA[user]]></dc:creator>
-		<guid isPermaLink="false">http://52.63.166.166/?p=287</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>287</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[287]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="footer-menu"><![CDATA[Footer Menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[219]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[]]></title>
 		<link>http://52.63.166.166/2024/04/18/288/</link>
 		<pubDate>Thu, 18 Apr 2024 09:07:15 +0000</pubDate>
 		<dc:creator><![CDATA[user]]></dc:creator>
@@ -3397,10 +3392,10 @@ jQuery(document).ready(function($) {
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>288</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[288]]></wp:post_name>
@@ -3454,10 +3449,10 @@ jQuery(document).ready(function($) {
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>289</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[289]]></wp:post_name>
@@ -3511,10 +3506,10 @@ jQuery(document).ready(function($) {
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>290</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[290]]></wp:post_name>
@@ -3568,10 +3563,10 @@ jQuery(document).ready(function($) {
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>291</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[291]]></wp:post_name>
@@ -3625,10 +3620,10 @@ jQuery(document).ready(function($) {
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>292</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-18 22:40:51]]></wp:post_date>
+		<wp:post_date><![CDATA[2024-04-18 09:07:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-04-18 09:07:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 22:40:51]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 22:40:51]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 09:07:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 09:07:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[292]]></wp:post_name>
@@ -3670,46 +3665,6 @@ jQuery(document).ready(function($) {
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Aged Care Australia]]></title>
-		<link>http://52.63.166.166/2024/03/24/aged-care-australia/</link>
-		<pubDate>Sun, 24 Mar 2024 00:08:35 +0000</pubDate>
-		<dc:creator><![CDATA[user]]></dc:creator>
-		<guid isPermaLink="false">http://52.63.166.166/?p=12</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p><a href="https://www.health.gov.au/health-topics/aged-care">https://www.health.gov.au/health-topics/aged-care</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>Help with health, carers, nursing homes and staying in your own home.</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12</wp:post_id>
-		<wp:post_date><![CDATA[2024-03-24 00:08:35]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-03-24 00:08:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-03-24 00:08:35]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-03-24 00:08:35]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[aged-care-australia]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="for-seniors"><![CDATA[For Seniors]]></category>
-		<category domain="category" nicename="links"><![CDATA[Links]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -5298,6 +5253,33 @@ jQuery(document).ready(function($) {
 										<category domain="category" nicename="gems"><![CDATA[Gems]]></category>
 						</item>
 					<item>
+		<title><![CDATA[Feb 2024]]></title>
+		<link>http://52.63.166.166/2024/04/11/feb-2024/</link>
+		<pubDate>Thu, 11 Apr 2024 12:06:42 +0000</pubDate>
+		<dc:creator><![CDATA[user]]></dc:creator>
+		<guid isPermaLink="false">http://52.63.166.166/?p=180</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:file {"id":185,"href":"http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf","displayPreview":false,"previewHeight":200} -->
+<div class="wp-block-file"><a id="wp-block-file--media-11f3a81a-e847-4926-bb49-466534446549" href="http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf" target="_blank" rel="noreferrer noopener">GEMS2024-02</a><a href="http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-11f3a81a-e847-4926-bb49-466534446549">Download</a></div>
+<!-- /wp:file -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>181</wp:post_id>
+		<wp:post_date><![CDATA[2024-04-11 12:06:42]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2024-04-11 12:06:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2024-04-18 13:12:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-04-18 13:12:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[feb-2024]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="gems"><![CDATA[Gems]]></category>
+						</item>
+					<item>
 		<title><![CDATA[Hello world!]]></title>
 		<link>http://52.63.166.166/?p=1</link>
 		<pubDate>Thu, 11 Apr 2024 17:30:21 +0000</pubDate>
@@ -5707,33 +5689,6 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="wp_theme" nicename="twentytwentyfour"><![CDATA[twentytwentyfour]]></category>
-						</item>
-					<item>
-		<title><![CDATA[Feb 2024]]></title>
-		<link>http://52.63.166.166/2024/04/11/feb-2024/</link>
-		<pubDate>Thu, 11 Apr 2024 12:06:42 +0000</pubDate>
-		<dc:creator><![CDATA[user]]></dc:creator>
-		<guid isPermaLink="false">http://52.63.166.166/?p=180</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:file {"id":185,"href":"http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf","displayPreview":false,"previewHeight":200} -->
-<div class="wp-block-file"><a id="wp-block-file--media-11f3a81a-e847-4926-bb49-466534446549" href="http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf" target="_blank" rel="noreferrer noopener">GEMS2024-02</a><a href="http://52.63.166.166/wp-content/uploads/2024/04/GEMS2024-02.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-11f3a81a-e847-4926-bb49-466534446549">Download</a></div>
-<!-- /wp:file -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>181</wp:post_id>
-		<wp:post_date><![CDATA[2024-04-11 12:06:42]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2024-04-11 12:06:42]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-04-18 13:12:55]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-04-18 13:12:55]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[feb-2024]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="gems"><![CDATA[Gems]]></category>
 						</item>
 					<item>
 		<title><![CDATA[March 2024]]></title>
