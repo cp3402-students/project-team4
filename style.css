@@ -764,9 +764,7 @@ textarea {
 .site {
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-areas: "header"
- "main"
- "footer";
+	grid-template-areas: "header" "main" "footer";
 }
 
 .site .site-header {
@@ -809,7 +807,6 @@ textarea {
 }
 
 .site .site-header .site-branding-text {
-	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif !important;
 	margin-left: 30px;
 }
 
@@ -858,7 +855,7 @@ textarea {
 }
 
 .site .custom-logo-link img {
-	max-width: 300px;
+	max-width: 150px;
 	height: auto;
 }
 
@@ -918,6 +915,10 @@ textarea {
 }
 
 ul.wp-block-latest-posts__list.links-that-need-to-be-removed li a.wp-block-latest-posts__post-title {
+	display: none;
+}
+
+ul.wp-block-latest-posts__list.alignwide.links-that-need-to-be-removed li a.wp-block-latest-posts__post-title {
 	display: none;
 }
 

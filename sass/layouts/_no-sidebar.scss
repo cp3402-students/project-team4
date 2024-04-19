@@ -18,7 +18,8 @@
       color: black;
       text-decoration: underline;
     }
-    &:visited{
+
+    &:visited {
       color: black !important;
     }
 
@@ -41,6 +42,15 @@
 }
 
 ul.wp-block-latest-posts__list.links-that-need-to-be-removed {
+  li {
+    a.wp-block-latest-posts__post-title {
+      display: none;
+    }
+  }
+}
+
+//cover alignwide boxes as well
+ul.wp-block-latest-posts__list.alignwide.links-that-need-to-be-removed {
   li {
     a.wp-block-latest-posts__post-title {
       display: none;
