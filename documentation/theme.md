@@ -39,7 +39,7 @@ This document provides comprehensive information about the custom WordPress them
 * **All Events Page:** Displays the latest event post at the top, followed by an archive of past events, grouped by year.
 * **Single Event Page:** Automatically uses the Single Event template for posts in the 'event' category, displaying the selected event at the top and a list of other available events.
 
-**Design**
+## Design
 
 ### Layout
 * Global Layout File: Used for general content areas across multiple pages or posts. General styling should be added here.

@@ -26,7 +26,7 @@ All Pages - This is the main panel for the pages feature, and is where the creat
 Add New Page - This panel automatically creates a new page for the user to begin inserting page content into.
 
 #### Comments
-Since we have not utilised this feature in the production of this site, the user is free to ignore this feature unless they intend to make use of it.
+Comments have been enabled under course posts to allow students to carry out discussions.
 
 #### Appearance
 Themes - This is the panel where the available themes for the site are located, which includes the ability to interact with our custom theme, or browse for other themes to try out.
@@ -104,7 +104,7 @@ This plugin was used to show the theme elements used for each page. The user wil
 This plugin was used to check the theme files for any issues in regard to how well theme standards are applied. The user will be able to take advantage of this plugin, by going to 'Appearances' on the left-hand panel, then click on the sub-menu titled 'Theme Check'. 
 From here, the user can choose the theme that they wish to check and then click the 'check' button. If the theme has any issues, the plugin will provide a list containing them, which may include suggestions on how the user can fix the theme.
 
-#### Utilising the Wordpress Importer plugin
+#### Utilising the WordPress Importer plugin
 This plugin introduces the 'import' option within the 'Tools' menu, which allows the user to both Import and Export WordPress XML files containing site content.
 
 #### Utilising the WP File Manager plugin
