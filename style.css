@@ -764,7 +764,9 @@ textarea {
 .site {
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-areas: "header" "main" "footer";
+	grid-template-areas: "header"
+ "main"
+ "footer";
 }
 
 .site .site-header {
@@ -778,12 +780,12 @@ textarea {
 }
 
 .site .site-header .site-title {
-	font-size: 3em;
-	font-weight: 700 !important;
+	font-family: "Roboto Condensed", "Lucinda Grande", "Lucinda Sans Unicode", "Lucinda Sans", Genevia, Arial, sans-serif;
 }
 
 .site .site-header .site-title a {
-	font-size: 2em;
+	font-weight: 700;
+	font-size: 2.25em !important;
 	line-height: 1em;
 	color: white;
 	text-decoration: none;
@@ -856,7 +858,7 @@ textarea {
 }
 
 .site .custom-logo-link img {
-	max-width: 150px;
+	max-width: 300px;
 	height: auto;
 }
 
@@ -899,6 +901,10 @@ textarea {
 	color: black !important;
 }
 
+.wp-block-button__link:visited {
+	color: black;
+}
+
 .entry-title {
 	color: black;
 	display: flex;
@@ -909,6 +915,19 @@ textarea {
 .entry-title a {
 	text-decoration: none;
 	color: black;
+}
+
+ul.wp-block-latest-posts__list.links-that-need-to-be-removed li a.wp-block-latest-posts__post-title {
+	display: none;
+}
+
+.wp-block-latest-posts__post-full-content {
+	margin-top: 0 !important;
+	margin-bottom: 3em !important;
+}
+
+.wp-block-latest-posts__post-full-content p {
+	margin-bottom: -1em;
 }
 
 @media screen and (min-width: 900px) {
@@ -1061,18 +1080,19 @@ textarea {
 .comment-navigation .nav-links,
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
-	display: flex;
+	display: none;
 }
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-	flex: 1 0 50%;
+	display: none;
 }
 
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
+	display: none;
 	text-align: end;
 	flex: 1 0 50%;
 }

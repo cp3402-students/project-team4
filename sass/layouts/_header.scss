@@ -16,11 +16,11 @@
     padding-bottom: 20px;
 
     .site-title {
-      font-size: 3em;
-      font-weight: 700 !important;
+      font-family: $font__roberto;
 
       a {
-        font-size: 2em;
+        font-weight: 700;
+        font-size: 2.25em !important;
         line-height: 1em;
         color: $color__menu_link;
         text-decoration: none;
@@ -42,14 +42,12 @@
     }
 
     .site-branding {
-
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .site-branding-text {
-      font-family: $font__roberto !important;
       margin-left: 30px;
     }
   }
@@ -91,15 +89,13 @@
       }
     }
   }
-
-  .header-image {
-    img {
+  .header-image{
+    img{
       width: 100vw;
       max-height: 40vh;
       overflow: hidden;
     }
   }
-
   .custom-logo-link {
     display: flex;
 
@@ -111,7 +107,6 @@
 
   .main-navigation {
     margin-top: 50px;
-
     ul {
       li {
         a {

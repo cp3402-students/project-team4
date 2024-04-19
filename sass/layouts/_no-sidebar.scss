@@ -21,6 +21,10 @@
     &:visited{
       color: black !important;
     }
+
+    &:visited {
+      color: black;
+    }
   }
 }
 
@@ -36,6 +40,23 @@
   }
 }
 
+ul.wp-block-latest-posts__list.links-that-need-to-be-removed {
+  li {
+    a.wp-block-latest-posts__post-title {
+      display: none;
+    }
+  }
+}
+
+.wp-block-latest-posts__post-full-content {
+  margin-top: 0 !important;
+  margin-bottom: 3em !important;
+
+  p {
+    margin-bottom: -1em;
+
+  }
+}
 
 @media screen and (min-width: $query__medium) {
   .site-main {
@@ -43,5 +64,4 @@
     margin-right: 7em;
   }
 }
-
 
