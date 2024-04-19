@@ -108,9 +108,9 @@ vagrant up
 
 - Download the latest version of WordPress from the following link: **[WordPress](https://wordpress.org/download/)**.
 - Unzip the file and copy the contents of the unzipped WordPress(+ version number) folder ***and grab the subdirectory
-  inside called wordpress***.
-- Drag/copy the wordpress folder into the ***public folder*** of the CognacBox directory.
-- Once the wordpress folder has been sucessfully transfered go your web browser and click on the
+  inside called WordPress***.
+- Drag/copy the WordPress folder into the ***public folder*** of the CognacBox directory.
+- Once the WordPress folder has been sucessfully transfered go your web browser and click on the
   following **[LINK](http://192.168.33.10/wordpress/)** to set up WordPress.
 - Select the Language you wish to install and click ***Continue***.
 - Next, open **[CognacBox Welcome Page](http://192.168.33.10)** in a new tab in your browser and scroll down to the ***
@@ -127,7 +127,7 @@ vagrant up
     - Site Title: U3A Online
     - Username: user
     - Password: user
-    - Tick the checkbox to confirm weak password (password strength is not important in local devlopment so the easier
+    - Tick the checkbox to confirm weak password (password strength is not important in local development so the easier
       to remember the better)
     - Email: [your email address]
     - Click ***Install WordPress*** button
@@ -252,12 +252,10 @@ npm run dev
 
 - Website Address: 52.63.166.166
 - WP Backend: 52.63.166.166/wp-admin
-- SuperUser: user
-- Password: 1r=S1ugdxLyh
 
 #### WordPress site Back Up:
 
-- Access Staging Wordpress Backend using credentials above.
+- Access Staging WordPress Backend using credentials above.
 - Go down to ***Tools*** from the sidebar on the Left.
     - Select ***Export*** from the sub menu.
 
@@ -283,12 +281,10 @@ npm run bundle
 
 - Website Address: 170.64.226.235
 - WP Backend: 170.64.226.235/wp-admin
-- SuperUser: user
-- Password: i4T#mmbk^5H^XTpdW7
 
 #### Import WordPress Posts/Pages:
 
-- Access Production Wordpress Backend using credentials above.
+- Access Production WordPress Backend using credentials above.
 - Go down to ***Tools*** from the sidebar on the Left.
     - Select ***Import*** from the sub menu.
 - Find the WordPress import section from the table and click ***Run Importer***
@@ -303,7 +299,7 @@ npm run bundle
 
 #### Import Theme:
 
-- Access Production Wordpress Backend using credentials above.
+- Access Production WordPress Backend using credentials above.
 - Go down to ***Appearance*** from the sidebar on the Left.
 - Click ***Add New Theme***
 - Click ***Upload Theme***
