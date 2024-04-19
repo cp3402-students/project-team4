@@ -28,16 +28,17 @@ The theme uses customizer.php for the header and footer outputs. The ability to 
 ### Deployment
 This document outlines the deployment process our team used as well as set-up and workflow. The instructions provide enough detail to allow someone new joining our project to follow along and set themselves up correctly.
 
-[Deployment.md]()
+[Deployment.md](https://github.com/cp3402-students/project-team4/blob/main/documentation/deployment.md)
 
 ---
 
 ### Theme
 Provides documentation on the U3A Online theme and features the theme provides. 
 
-[Theme.md]()
+[Theme.md](https://github.com/cp3402-students/project-team4/blob/main/documentation/theme.md)
 
 ---
 
 ### Site
-Documentation about U3A Online who will use the theme, what features are in use and plugins that are being utilised. 
+Documentation about U3A Online who will use the theme, what features are in use and plugins that are being utilised.
+[Site.md](https://github.com/cp3402-students/project-team4/blob/main/documentation/site.md)
