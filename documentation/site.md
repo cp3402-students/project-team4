@@ -28,9 +28,6 @@ Add New Page - This panel automatically creates a new page for the user to begin
 #### Comments
 Since we have not utilised this feature in the production of this site, the user is free to ignore this feature unless they intend to make use of it.
 
-#### WPForms Lite
-This functionality is an additional feature make available by the 'WPForms Lite' plugin, and is what allows the user to view and manage the contact forms utilised in the site.
-
 #### Appearance
 Themes - This is the panel where the available themes for the site are located, which includes the ability to interact with our custom theme, or browse for other themes to try out.
 
@@ -46,7 +43,7 @@ Background - This is used for quick access to the background image feature as pa
 
 Theme Check - This panel is the additional feature made available by the 'Theme Check' plugin, and is what allows the user to view and manage the theme integrity, making sure that it is ready for use on the live site.
 
-Theme File Editor - This is where files pertaining to the theme can be modified. However, since we have utilised IDE's and other backend tools in the production of this site, modifications via this method are not recommended for the user.
+Theme File Editor - This panel is an additional feature made available by the 'WP File Manager' plugin, and is where files pertaining to the theme can be modified. However, since we have utilised IDE's and other backend tools in the production of this site, modifications via this method are not recommended for the user.
 
 #### Plugins
 Installed Plugins - This panel shows a list of all the plugins that are installed for the site, with some having been installed by us, and others having come preinstalled with the site (further details on the plugins we have installed are discussed further below).
@@ -90,22 +87,25 @@ Privacy - This is the panel that the user will go to if they wish to make change
 - 'Theme Check' (Author: Themes Team, Acquired from WordPress.org Plugin Page at (https://wordpress.org/plugins/theme-check/))
 - 'Wordpress Importer' (Author: wordpressdotorg, Acquired from WordPress.org Plugin Page at (https://wordpress.org/plugins/wordpress-importer/))
 - 'WP File Manager' (Author: mndpsingh287, Acquired from WordPress.org Plugin Page at (https://wordpress.org/plugins/wp-file-manager/))
-- 'WPForms Lite' (Author: WPForms, Acquired from WordPress.org Plugin Page at (https://wordpress.org/plugins/wpforms-lite/))
 
 Further information regarding how we have utilised these plugins can be found below.
 
 ### Making Updates to the Site:
 #### Creating new pages
+The process of creating a new page is simple. On the left-hand side of the WordPress dashboard, click on the menu item called 'Pages'. From here, you can click on the button titled 'Add New Page' to make a new page. Alternatively, the sub-menu item of the same name can be selected to create a page. When a page is made without a parent designation, it is then added to the website navigation menus. If a page is made with a parent designation, it will need to be added to the navigation menus. This can be achieved by going to the 'Menus' panel under 'Appearances'.
 
 #### Creating new posts
+The process of creating a new post is simple. On the left-hand side of the WordPress dashboard, click on the menu item called 'Posts'. From here, you can click on the button titled 'Add New Post' to make a new post. So far, the website features numerous categories pertaining to different site content, such as 'Announcements', 'Courses'(which features sub-categories for different genres), as well as 'News', to name a couple. It is advised that the user should make use of these categories for the relevant posts. That being said, the user is free to create new categories for new types of posts.
 
 #### Utilising the Show Current Template plugin
+This plugin was used to show the theme elements used for each page. The user will be able to take advantage of this plugin whilst viewing a page, where the 'Show Current Template' option will be clickable for showing theme elements, located on the top navigation bar.
 
 #### Utilising the Theme Check plugin
+This plugin was used to check the theme files for any issues in regard to how well theme standards are applied. The user will be able to take advantage of this plugin, by going to 'Appearances' on the left-hand panel, then click on the sub-menu titled 'Theme Check'. 
+From here, the user can choose the theme that they wish to check and then click the 'check' button. If the theme has any issues, the plugin will provide a list containing them, which may include suggestions on how the user can fix the theme.
 
 #### Utilising the Wordpress Importer plugin
+This plugin introduces the 'import' option within the 'Tools' menu, which allows the user to both Import and Export WordPress XML files containing site content.
 
 #### Utilising the WP File Manager plugin
-
-#### Utilising the WPForms Lite plugin
-
+This plugin introduces various features to the WordPress site regarding WordPress files and the ability to more precisely configure them. The user will be able to take advantage of this plugin, whenever the user is dealing with the files of WordPress content and media more directly, as the plugin allows for greater leniency with regard to file types and sizes.
